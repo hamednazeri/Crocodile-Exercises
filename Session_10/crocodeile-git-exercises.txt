@@ -1,0 +1,7 @@
+https://github.com/hamednazeri/crocodeile-git-exercises
+
+تکلیف گیت👆.
+
+منابع کمک گرفته شده : 
+https://www.geeksforgeeks.org/merge-conflicts-and-how-to-handle-them/
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-using-the-command-line

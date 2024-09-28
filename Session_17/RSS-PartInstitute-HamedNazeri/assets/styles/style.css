@@ -1,0 +1,107 @@
+html {
+    font-family: YekanBakh;
+    font-weight: 300;
+    color: #000000;
+}
+
+.Heading2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.Heading2-5 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.Heading3 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #17C4E2;
+    text-decoration: none;
+}
+
+.Heading4 {
+    font-weight: 600;
+    font-size: 13px;
+    color: #BABABA;
+    text-decoration: none;
+}
+
+
+.Line3Item button {
+    margin: 10px 3px;
+    font-family: YekanBakh;
+    font-weight: 400;
+    font-size: 14px;
+    border-style: none;
+    border-radius: 14px;
+}
+
+.Line3Item .TypeA {
+    background-color: #17C4E2;
+    color: #FFFFFF;
+}
+
+.Line3Item .TypeB {
+    background-color: #ACDEE7;
+    color: #000000;
+}
+
+.BigPicture img {
+    border-radius: 10px;
+}
+
+.Shelf {
+    border: #E2E2E2;
+    border-radius: 12px;
+    border-width: 0.8;
+    border-style: solid;
+}
+
+.SpliterA {
+    border: #E2E2E2;
+    border-radius: 12px;
+    border-width: 0px 0px 0.8 0px;
+    border-style: solid;
+}
+
+.FollowUsA {
+    border: #E2E2E2;
+    border-radius: 0 12px 12px 0;
+    border-width: 0.8px;
+    border-style: solid;
+}
+
+.FollowUsB {
+    border: #E2E2E2;
+    border-radius: 12px 0 0 12px;
+    border-width: 0.8px;
+    border-style: solid;
+
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+
+.PicShelfItems img {
+    border-radius: 12px;
+}
+
+.BigContent{
+    color: #FFFFFF;
+}
+
+.BigContent h3{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.BigContent h1{
+    font-weight: 800;
+    font-size: 26px;
+}

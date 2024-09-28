@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: red;
+    border-style: solid;
+    border-width: 0.5px; */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section {
+    /* background-color: aquamarine; */
+    width: 1000;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Chosen {
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 55%;
+}
+
+.LifeStyle {
+    /* background-color: burlywood; */
+    width: 100%;
+    height: 45%;
+}
+
+.aside {
+    /* background-color: chartreuse; */
+    width: 400;
+    height: 900;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.aside .ChosenMini {
+    /* background-color: brown; */
+    width: 100%;
+    height: 500;
+}
+
+.aside .FollowUS {
+    /* background-color: cadetblue; */
+    width: 100%;
+    height: 400;
+}
+
+.Line3Item {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Line3Item a {
+    margin-left: auto;
+    padding: 15px;
+}
+
+.Line3Item button {
+    padding: 10px;
+}
+
+.MainContent {
+    height: 85%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.BigPicture {
+    width: 60%;
+    height: 100%;
+    margin: 10px 0 10px 10px;
+    position: relative;
+}
+
+.BigPicture img {
+    width: 100%;
+    height: 100%;
+}
+
+.Shelf {
+    width: 34%;
+    padding: 2%;
+    margin: 10px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.closet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.closetItems {
+    width: 240px;
+    padding: 0 2% 2% 2%;
+}
+
+.closet img {
+    width: 240px;
+    height: 200px;
+    padding: 2%;
+}
+
+.PicShelf {
+    margin-top: 5%;
+}
+
+.PicShelfItems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2px;
+}
+
+.PicShelfItems img {
+    width: 100px;
+    height: 100px;
+    margin: 0 15px;
+}
+
+.Content {
+    width: 250;
+}
+
+.SpliterA {
+    margin: 10px;
+}
+
+.FollowUSItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.FollowUsA {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 68%;
+    height: 65px;
+    margin: 10px 0 10px 0;
+    padding: 0 10px 0 0;
+}
+
+.FollowUsA img {
+    width: 40px;
+    height: 40px;
+    padding: 0 5px 0 5px;
+}
+
+.FollowUsB {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 31%;
+    height: 65px;
+    margin: 10px 0 10px 0;
+}
+
+.BigContent {
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    margin: 0 0 0 30%;
+}
+
+@media only screen and (max-width:359px) {
+    .container {
+        max-width: 200px;
+    }
+
+    .aside {
+        width: 100%;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .BigPicture {
+        width: 100%;
+    }
+
+    .Shelf {
+        width: 100%;
+    }
+
+    .Content {
+        width: 100px;
+    }
+
+}
+
+@media only screen and (max-width:575px) and (min-width:360px) {
+    .container {
+        max-width: 340px;
+    }
+
+    .aside {
+        width: 100%;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .BigPicture {
+        width: 100%;
+    }
+
+    .Shelf {
+        width: 100%;
+    }
+
+    .Content {
+        width: 200px;
+    }
+
+}
+
+@media only screen and (max-width:899px) and (min-width:576px) {
+    .container {
+        max-width: 550px;
+    }
+
+    .aside {
+        width: 100%;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .BigPicture {
+        width: 100%;
+    }
+
+    .Shelf {
+        width: 100%;
+    }
+
+    .Content {
+        width: 400px;
+    }
+
+}
+
+@media only screen and (max-width:1449px) and (min-width:900px) {
+    .container {
+        max-width: 870px;
+    }
+
+    .aside {
+        width: 100%;
+    }
+
+    .section {
+        width: 100%;
+    }
+
+    .BigPicture {
+        width: 55%;
+    }
+
+    .Shelf {
+        width: 35%;
+    }
+
+}
+
+@media only screen and (max-width:1849px) and (min-width:1450px) {
+    .container {
+        max-width: 1420px;
+    }
+}
+
+/* Screens wider than 1650px */
+@media only screen and (min-width:1850px) {
+    .container {
+        max-width: 1820px;
+    }
+}

@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: red;
+    border-style: solid;
+    border-width: 0.5px; */
+}
+
+body {
+    width: 100%;
+    height: 915px;
+}
+
+.Background {
+    min-height: calc(100vh - 165px);
+}
+
+.Container {
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.NavBar {
+    height: 165px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 100px;
+}
+
+.NavBar .Right {
+    flex-grow: 1;
+}
+
+.NavBar .Left button:first-of-type {
+    width: 173px;
+    height: 65px;
+    margin: 0 10px;
+}
+
+.NavBar .Left button:last-of-type {
+    width: 221px;
+    height: 65px;
+    margin: 0 10px;
+}
+
+.NavBar .Left a {
+    width: 61px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.PrimaryButton {
+    box-sizing: border-box;
+    width: 312px;
+    height: 91px;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.Title h1 {
+    margin: 0 10px;
+}
+
+.Title img {
+    width: 178px;
+    height: 165px;
+}
+
+.Description {
+    width: 800px;
+    text-justify: inter-word;
+    padding: 30px 0;
+}
+
+.Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.PrimaryButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.UserPic{
+    padding: 0 10px;
+}
+
+@media only screen and (max-width:359px) {
+    .Container {
+        max-width: 200px;
+    }
+
+    .NavBar .Left a {
+        display: none;
+    }
+
+    .HappyCro {
+        display: none;
+    }
+
+    .Title {
+        font-size: 30px;
+    }
+
+    .Title img {
+        display: none;
+    }
+
+    .NavBar .Left button:first-of-type {
+        display: none;
+    }
+
+    .NavBar .Left button:last-of-type {
+        display: none;
+    }
+
+    .Description {
+        width: 80vw;
+    }
+
+    .NavBar {
+        justify-content: center;
+        align-items: flex-end
+    }
+
+    .NavBar .Right {
+        flex-grow: 0;
+    }
+
+    .PrimaryButton {
+        width: 247px;
+    }
+}
+
+@media only screen and (max-width:610px) and (min-width:360px) {
+    .Container {
+        max-width: 340px;
+    }
+
+    .NavBar .Left a {
+        display: none;
+    }
+
+    .HappyCro {
+        display: none;
+    }
+
+    .Title {
+        font-size: 45px;
+    }
+
+    .Title img {
+        display: none;
+    }
+
+    .NavBar .Left button:first-of-type {
+        display: none;
+    }
+
+    .NavBar .Left button:last-of-type {
+        display: none;
+    }
+
+    .Description {
+        width: 80vw;
+    }
+
+    .NavBar {
+        justify-content: center;
+    }
+
+    .NavBar .Right {
+        flex-grow: 0;
+    }
+}
+
+@media only screen and (max-width:899px) and (min-width:610px) {
+    .Container {
+        max-width: 550px;
+    }
+
+    .NavBar .Left a {
+        display: none;
+    }
+
+    .HappyCro {
+        display: none;
+    }
+
+    .Title img {
+        display: none;
+    }
+
+    .NavBar .Left button:first-of-type {
+        display: none;
+    }
+
+    .Description {
+        width: 80vw;
+    }
+}
+
+@media only screen and (max-width:1479px) and (min-width:900px) {
+    .Container {
+        max-width: 870px;
+    }
+
+    .NavBar .Left a {
+        display: none;
+    }
+
+    .HappyCro {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1849px) and (min-width:1480px) {
+    .Container {
+        max-width: 1420px;
+    }
+}
+
+@media only screen and (min-width:1850px) {
+    .Container {
+        max-width: 1820px;
+    }
+}

@@ -1,0 +1,82 @@
+html {
+    font-family: YekanBakh;
+    font-weight: 300;
+    color: #000000;
+}
+
+.NavBar {
+    background-color: #FFFFFF;
+}
+
+.NavBar .Left button:first-of-type {
+    font-family: YekanBakh;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4C9068;
+    border: 0;
+    background: #E8F2EB;
+    border-radius: 32.5px;
+}
+
+.NavBar .Left button:last-of-type {
+    font-family: YekanBakh;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+    background: #49A96F;
+    border-radius: 32.5px;
+}
+
+.NavBar .Left a {
+    font-family: YekanBakh;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+.Background {
+    background: linear-gradient(180deg, rgba(102, 137, 112, 0.6) 80.49%, rgba(102, 137, 112, 0.35) 100%);
+}
+
+.Title {
+    color: #2A6241;
+    font-family: YekanBakh;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.Description {
+    color: #2A6241;
+    font-family: YekanBakh;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.PrimaryButton {
+    color: #FFFFFF;
+    background: #49A96F;
+    border: #E8F2EBB2;
+    border-radius: 12px;
+    border-width: 0.8;
+    border-style: solid;
+    border: 5px solid rgba(232, 242, 235, 0.7);
+    border-radius: 45.5px;
+
+    font-family: YekanBakh;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.HappyCro {
+    position: fixed;
+    width: 324px;
+    height: 436px;
+    left: 40px;
+    bottom: 40px;
+}
+
+.UserPic {
+    width: 25px;
+    height: 25px;
+}
